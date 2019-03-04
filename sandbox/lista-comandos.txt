@@ -1,0 +1,11 @@
+TMUX
+
+ctrl + b + % - Divide verticalmente la ventana.
+ctrl + b + " - Divide horizontalmente la pantalla.
+ctrl + b + x - Cierra la ventana actual.
+
+
+Pila de directorios.
+
+pushd [directorio a cual se desea cambiar] - Agrega la ruta del direcorio actual a una pila.
+popd - Saca de la pila el la última ruta agregada a la pila de directorios.
