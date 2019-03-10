@@ -9,3 +9,37 @@ Pila de directorios.
 
 pushd [directorio a cual se desea cambiar] - Agrega la ruta del direcorio actual a una pila.
 popd - Saca de la pila el la última ruta agregada a la pila de directorios.
+
+tree: ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e  's/^//' -e 's/-/|/'
+
+
+which [comando] busca la dirección de ejecutable del comando.
+
+open -a [aplicación que se desea ejecutar] [parametros o banderas del ejecutable]
+
+php l-streams.php 1> salida 2> error ## 1 es stdoutput y 2 stderror.
+
+php l-streams.php 1> salida 2<&1 ## Mandar stderror hacia donde se va stdoutput
+
+top ## procesos del sistema: Q para salir y O ara filtros.
+
+kill -9 [PID] ## mata un proceso.
+
+ps -wA ## para ver procesos.
+
+uptime ## Nos dice tiempo. usuarios y carga promedio funcionando.
+
+grep -r . -e [expresión] ## -r es recursivo seguido deñ directorio en donde se buscará la expresión -e.
+
+grep -r [ruta] -e [expresion] nos ayuda a encontrar cadenas de caracteres dentro de todos los archivos de la ruta que le demos, con expresiones regulares.
+
+grep -r -n .. ## -n para el número de linea.
+
+grep [archivo] -e [expresión] ## busca la palabra dentro del archivo.
+
+wc -l ## lineas en un texto-
+
+find [directorio en el que se desea buscar] -name [nombre de archivo] -type f]
+
+date ## fecha
+time ## tiempo de procesador
