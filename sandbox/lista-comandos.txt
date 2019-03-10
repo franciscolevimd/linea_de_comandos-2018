@@ -43,3 +43,20 @@ find [directorio en el que se desea buscar] -name [nombre de archivo] -type f]
 
 date ## fecha
 time ## tiempo de procesador
+
+
+curl ## Emula requests un browser: busca e imprime el resultado.
+curl -o [archivo que guarda imagen]
+wget es una herramienta para descargar archivos de servidores
+
+zip [nombre de zip].zip [lista de archivos y/o carpeta(s) que se desean comprimir]## Comprimir en zip
+
+upzip [archivo] descomprime un .zip
+
+      -vl no descomprime sino que ve lo que hay adentro
+
+cfz [archivo.tar.gz] junta y comprime
+xfz [archivo .tar.gz] descomprime
+
+awk -F"::" ## -F separar por columnas uilizando como delimitador ::
+awk -F"::" '{printf("%s\n",$3)}' ## Imprimir muy al estilos C el número de columan deseada.
