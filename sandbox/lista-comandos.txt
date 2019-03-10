@@ -92,3 +92,16 @@ q = Finalizar procesamiento del fichero.
 Fuente: http://www.sromero.org/wiki/linux/aplicaciones/uso_de_sed
 Mas info en: https://linux.die.net/man/1/sed
 
+crontab permite programar la ejecución de scripts.
+
+    -l muestra la lista de crontab
+    -e editar la tabla crontab. Con esto se pueden agregar más scripts
+
+Columna 1: MINUTO 0-59
+Columna 2: HORA 0-23
+Columna 3: DIA DEL MES 1-31
+Columna 4: MES 1-12
+Columna 5: DIA DE LA SEMANA 0-7 (donde 0 y 7 equivalen a domingo)
+Columna 6: SCRIPT O COMANDO que queremos que se ejecute …
+
+crontab se ejecuta si y solo si la computadora está encendida.
