@@ -105,3 +105,17 @@ Columna 5: DIA DE LA SEMANA 0-7 (donde 0 y 7 equivalen a domingo)
 Columna 6: SCRIPT O COMANDO que queremos que se ejecute …
 
 crontab se ejecuta si y solo si la computadora está encendida.
+
+du muestra la cantidad de espacio usado por los archivos en un directorio.
+
+    -h muestra el output de una manera que se pueda leer mejor.
+    -d [numero] nivel de profundidad. Cuántos niveles baja de carpeta. En algunos SO se usa --max-depth=
+
+
+ctr+k borra lo que hay frente al cursor en linea de comandos
+	
+En algunas distribuciones de Linux el comando open es reemplazado por xdg-open. Aunque claro pueden hacer un alias
+
+ln -s [ruta del directorio] [alias] Crea un alias que apunta a un directorio.
+
+ls -l | grep ^l ## con ^ deimos que la linea que comience con la letra especificada.
